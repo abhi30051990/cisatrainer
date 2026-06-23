@@ -1,0 +1,8 @@
+{
+  "name": "cisa-trainer",
+  "version": "1.0.0",
+  "description": "CISA Trainer - app + live Claude on one Render service",
+  "main": "server.js",
+  "scripts": { "start": "node server.js" },
+  "engines": { "node": ">=18" }
+}
