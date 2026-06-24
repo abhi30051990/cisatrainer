@@ -1,8 +1,15 @@
 {
   "name": "cisa-trainer",
-  "version": "1.0.0",
-  "description": "CISA Trainer - app + live Claude on one Render service",
+  "version": "2.0.0",
+  "description": "CISA Trainer - app + live Claude + Postgres sync on one Render service",
   "main": "server.js",
-  "scripts": { "start": "node server.js" },
-  "engines": { "node": ">=18" }
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "pg": "^8.22.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
 }
